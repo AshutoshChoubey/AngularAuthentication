@@ -18,4 +18,9 @@ import { LoginComponent } from './login/login.component';
     MaterialDesignModule,
   ]
 })
-export class AuthModule { }
+export class AuthModule { 
+
+  constructor(){
+    console.log('here__11');
+  }
+}
